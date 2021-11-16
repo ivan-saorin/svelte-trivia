@@ -2,6 +2,7 @@ import svelte from 'rollup-plugin-svelte';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
+import copy from 'rollup-plugin-copy';
 import { terser } from 'rollup-plugin-terser';
 
 const production = !process.env.ROLLUP_WATCH;
@@ -53,7 +54,11 @@ export default {
         importee === 'svelte' || importee.startsWith('svelte/')
     }),
     commonjs(),
-
+    copy({
+      targets: [
+        { src: 'public/trivia.json', dest: 'dist/public/trivia.json' }
+      ]
+    }),
     // In dev mode, call `npm run start` once
     // the bundle has been generated
     !production && serve(),
