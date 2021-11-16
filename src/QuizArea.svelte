@@ -137,10 +137,11 @@
   $: finalMessage = '';
 
   function fetchData() {
-    fetch('https://opentdb.com/api.php?amount=10')
+    // fetch('https://opentdb.com/api.php?amount=10')
+    fetch('/trivia.json')
       .then(resp => resp.json())
       .then(res => {
-        data = res.results;
+        data = shuffle(res.results);
 
         representation = data.reduce((acc, curr) => {
           acc.push({

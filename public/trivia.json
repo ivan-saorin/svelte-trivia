@@ -1,0 +1,118 @@
+{
+    "response_code": 0,
+    "results": [
+       {
+          "category": "Entertainment: Anime",
+          "type": "single",
+          "difficulty": "medium",
+          "question": "Quante reincarnazioni ha avuto Elizabeth?",
+          "correct_answer": "106",
+          "incorrect_answers": [
+             "100",
+             "115",
+             "107"
+          ]
+       },
+       {
+        "category": "Entertainment: Anime",
+        "type": "single",
+        "difficulty": "medium",
+        "question": "Tra i demoni rossi e grigi qual'è il più forte?",
+        "correct_answer": "Grigi",
+        "incorrect_answers": [
+           "Rossi"
+        ]
+     },
+     {
+        "category": "Entertainment: Anime",
+        "type": "single",
+        "difficulty": "medium",
+        "question": "Come vengono chiamati i maschi del clan delle dee?",
+        "correct_answer": "Druidi",
+        "incorrect_answers": [
+           "Dei",
+           "Apostoli"
+        ]
+     },
+     {
+        "category": "Entertainment: Anime",
+        "type": "single",
+        "difficulty": "medium",
+        "question": "Qual'era il nome del padre di Merllin?",
+        "correct_answer": "Non è udibile dagli umani",
+        "incorrect_answers": [
+           "Belinor",
+           "Non viene detto",
+           "Non ha un nome"
+        ]
+     },
+     {
+        "category": "Entertainment: Anime",
+        "type": "single",
+        "difficulty": "medium",
+        "question": "Dopo mezzogiorno Escanor ha un minuto di incredibile forza, Qual'è il nome di questa abilità?",
+        "correct_answer": "The One",
+        "incorrect_answers": [
+           "Sun Rise",
+           "The Power"
+        ]
+     },
+     {
+        "category": "Entertainment: Anime",
+        "type": "single",
+        "difficulty": "medium",
+        "question": "Esta Rossa chi era in realtà?",
+        "correct_answer": "Il quarto angelo del clan delle Dee",
+        "incorrect_answers": [
+           "Il figlio illegittimo del Re dei Demoni",
+           "Il fratello adottivo di Meliodas"
+        ]
+     },
+     {
+        "category": "Entertainment: Anime",
+        "type": "single",
+        "difficulty": "medium",
+        "question": "Lancillotto con chi sparisce nella pioggia?",
+        "correct_answer": "Jerigho",
+        "incorrect_answers": [
+           "Eliane",
+           "Ban",
+           "Elizabeth"
+        ]
+     },
+     {
+        "category": "Entertainment: Anime",
+        "type": "single",
+        "difficulty": "medium",
+        "question": "Come è morta la prima reincarnazione di Elizabeth?",
+        "correct_answer": "Impalata da tronchi di legno",
+        "incorrect_answers": [
+           "Uccisa dagli umani",
+           "Uccisa da Zedris"
+        ]
+     },
+     {
+        "category": "Entertainment: Anime",
+        "type": "single",
+        "difficulty": "medium",
+        "question": "Che cosa è Ghowther in realtà? E perchè?",
+        "correct_answer": "Una bambola, il vero Ghowther era disabile",
+        "incorrect_answers": [
+           "Un demone, era stato maledetto",
+           "Un umano, Merlin lo trasforma per vendetta"
+        ]
+     },
+     {
+        "category": "Entertainment: Anime",
+        "type": "single",
+        "difficulty": "medium",
+        "question": "Per quale peccato viene giudicata Merlin? Simbolo?",
+        "correct_answer": "Peccato di gola. Chinghiale Cremisi",
+        "incorrect_answers": [
+           "Ira. Serpente",
+           "Invidia. Chinghiale Cremisi",
+           "Peccato di gola. Orso"
+        ]
+     }
+  ]
+ }
