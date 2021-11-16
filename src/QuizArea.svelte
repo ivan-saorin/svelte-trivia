@@ -138,7 +138,7 @@
 
   function fetchData() {
     // fetch('https://opentdb.com/api.php?amount=10')
-    fetch('/trivia.json')
+    fetch('./trivia.json')
       .then(resp => resp.json())
       .then(res => {
         data = shuffle(res.results);
